@@ -1,6 +1,6 @@
 ---
 name: git-memory
-description: Persistent memory storage system using file-based storage with Git versioning. Use when setting up agent memory persistence, configuring Git-based memory storage, or managing structured memory files (MEMORY.md for long-term memories and memory/YYYY-MM-DD.md for daily session logs). Triggers on discussions about agent memory storage, Git backup for memories, or file-based memory organization.
+description: OpenClaw agent persistent memory system using Git-based file storage. Provides structured MEMORY.md for long-term memory and daily session logs in memory/*.md, with automatic Git commits for version history. Use when an OpenClaw agent needs memory persistence across sessions, Git-backed memory storage, or when configuring the AGENTS.md memory workflow (MEMORY.md + daily logs + auto-commit via HEARTBEAT.md). Essential for OpenClaw agents requiring stateful memory with full version control and backup capabilities.
 ---
 
 # Git Memory
