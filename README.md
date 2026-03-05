@@ -1,6 +1,14 @@
 # Claw Git Memory
 
+[![OpenClaw](https://img.shields.io/badge/OpenClaw-Skill-blue)](https://openclaw.ai)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black)](https://github.com/ZhechenLi/claw-git-memory)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+> **OpenClaw Agent Memory | Git Version Control | Cross-Session Persistence**
+
 Persistent memory system for OpenClaw agents using Git-based file storage.
+
+**Keywords**: `openclaw` `agent-memory` `git-sync` `persistence` `session-memory` `version-control`
 
 ## What is this?
 
