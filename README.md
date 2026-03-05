@@ -1,12 +1,18 @@
-# Claw Git Memory
+# claw-git-memory
 
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Skill-blue)](https://openclaw.ai)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black)](https://github.com/ZhechenLi/claw-git-memory)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-> **OpenClaw Agent Memory | Git Version Control | Cross-Session Persistence**
+> **What**: A persistent memory system for [OpenClaw](https://openclaw.ai) AI agents  
+> **Why**: Solve the problem of agents losing context between sessions  
+> **How**: Git-based file storage with automatic versioning
 
-Persistent memory system for OpenClaw agents using Git-based file storage.
+**Key Benefits**:
+- ✅ Remember conversations across sessions
+- ✅ Full version history & rollback
+- ✅ Sync across devices via Git
+- ✅ Works offline, no cloud required
 
 **Keywords**: `openclaw` `agent-memory` `git-sync` `persistence` `session-memory` `version-control`
 
@@ -281,6 +287,28 @@ Understanding when and how your memory is synchronized:
 - **SKILL.md**: Full technical documentation
 - **scripts/auto_commit.sh**: Automated commit script
 - **scripts/memory_stats.sh**: Memory statistics tool
+
+## FAQ
+
+### How do I add memory to OpenClaw?
+
+Install `claw-git-memory` skill and follow the Quick Start guide above. It creates `MEMORY.md` for long-term memory and `memory/*.md` for daily session logs.
+
+### Can I sync OpenClaw memory across devices?
+
+Yes! Since memory is stored in Git, you can push to GitHub/GitLab and clone on other devices. Your agent's memory will be identical across all devices.
+
+### What is agent persistent memory?
+
+A way for AI agents to remember context, user preferences, and important information across sessions. Without persistent memory, agents start fresh every time.
+
+### Does this work offline?
+
+Yes! Git works completely offline. You can use your agent's memory without internet, and sync later when you have connection.
+
+### How is this different from OpenClaw's built-in memory?
+
+OpenClaw doesn't have built-in persistent memory by default. This skill adds that capability with Git versioning, giving you full control and history.
 
 ## License
 
